@@ -16,6 +16,7 @@ class MainAdapter(private val data: List<Hewan>) :
         fun bind(hewan: Hewan) = with(binding) {
             namaTV.text = hewan.nama
             latinTV.text = hewan.namaLatin
+            imageView.setImageResource(hewan.imageResId)
         }
 
     }
