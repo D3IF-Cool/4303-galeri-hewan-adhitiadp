@@ -31,3 +31,5 @@ object HewanApi {
         return BASE_URL + "hewan/$nama.jpg"
     }
 }
+
+enum class ApiStatus { LOADING, SUCCESS, FAILED}
